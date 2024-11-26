@@ -67,13 +67,6 @@
                 <div class="container text-center py-5" style="max-width: 900px;">
                     <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">PGS/OSM</h4>
                     <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown text-white" data-wow-delay="0.3s">
-                      <!-- List Of Completed Projects -->
-                        <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addModal">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
-                            </svg>
-                            Add Ongoing Project
-                        </button> -->
                     </ol>    
                 </div>
             </div>
@@ -104,10 +97,6 @@
                       <th class="center size">NOT STARTED</th>
                       <th class="center">---</th>
                   </tr>
-                  <!-- <tr id="showaddform">
-                    
-                  </tr> -->
-                  
                 </thead>  
                 <tbody>
                   <tr>
@@ -451,9 +440,6 @@
             </div>
         </div>
         <!-- Services End -->
-
-        
-       
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
     </body>

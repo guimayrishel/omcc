@@ -59,21 +59,6 @@
                     </div>
                 </div>
             </nav>
-
-            <!-- Header Start -->
-                <!-- <div class="container-fluid bg-breadcrumb">
-                    <div class="container text-center py-5" style="max-width: 900px;">
-                        <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Ongoing Projects</h4>
-                        <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addModal">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
-                                </svg>
-                                Add Ongoing Project
-                            </button>
-                        </ol>    
-                    </div>
-                </div> -->
               <br>
              <!-- Attractions Start -->
               <div class="container-fluid attractions py-5 ">
@@ -102,9 +87,6 @@
             <!-- Header End -->
         </div>
         <!-- Navbar & Hero End -->
-        
-
-
         <!-- Services Start -->
         <div class="container-fluid gallery pb-5">
             <div class="container py-5">
@@ -117,7 +99,6 @@
                             <div class="b-image">
                               <div class="gallery-item">
                                 <img style="border-radius: 5%;" src="Images/OngoingProjects/<?php echo $image; ?>" class="card-img-top img-fluid rounded w-100 h-100" alt="Alternate Image" onerror="this.onerror=null; this.src='Images/no-image-available-icon-vector.jpg';">
-                                <!-- <img src="img/gallery-1.jpg" class="img-fluid rounded w-100 h-100" alt=""> -->
                                 <div class="search-icon">
                                     <a href="Images/OngoingProjects/<?php echo $image; ?>" class="btn btn-light btn-lg-square rounded-circle" data-lightbox="Gallery-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
                                       <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
@@ -163,7 +144,6 @@
             </div>
         </div>
         <!-- Services End -->
-
         <!-- add modal -->
         <div class="modal fade" id="addModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
           <div class="modal-dialog modal-lg">

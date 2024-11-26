@@ -100,7 +100,6 @@
                 <div class="row g-4">
                 <?php foreach ($images as $index => $image): ?>
                     <?php
-                    // Extract the title from the filename (e.g., 'my id bruhh' from 'my id bruhh_6722e48283d4c.jpg')
                     $title = preg_replace('/_[^_]+$/', '', pathinfo($image, PATHINFO_FILENAME));
                     ?>
                     <div class="col-md-6 wow fadeInUp"  id="project-<?php echo $index; ?>" data-wow-delay="0.<?php echo $index; ?>s">
@@ -134,6 +133,6 @@
         
        
         <!-- Template Javascript -->
-        <script src="js/main.js"></script>
+        <script src="<?php echo base_url('js/main.js'); ?>"></script>
     </body>
 </html>
