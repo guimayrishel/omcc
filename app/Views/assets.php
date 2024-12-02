@@ -1,3 +1,4 @@
+    <link rel="icon" href="<?=base_url()?>/cvmc_logo.png" type="image/gif">
     <!-- Icon Font Stylesheet -->
     <link rel="stylesheet" href="<?php echo base_url('css/all.css'); ?>"/>
     <!-- Libraries Stylesheet -->
